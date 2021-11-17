@@ -1,0 +1,13 @@
+.home-followin{
+    background-color: #1F2937;
+}
+
+@media screen and (min-width: 600px){
+
+    .follo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

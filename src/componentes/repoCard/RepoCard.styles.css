@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap');
+
+
+
+.repo-card{
+    padding: 10px 0 ;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #111827;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+    -webkit-box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+    -moz-box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+}
+
+.repo-card>img{
+    object-fit: cover;
+    width: 40%;
+    border-radius: 50%;
+    border: solid 2px whitesmoke;
+}
+
+.repo-card>h4{
+
+    font-family: 'Roboto', sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+
+.btn-repo{
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 6px  ;
+    background-image: linear-gradient(to right,  white 50%, #e74c3c 50% );
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease ;
+    box-shadow: 8px 7px 4px 3px rgba(0,0,0,0.18);
+}
+
+.btn-repo:hover{
+    color: #26292a;
+    background-position: right;
+   
+    
+}
+
+
+
+
+@media screen and (min-width: 600px){
+
+
+    .repo-card{
+       width: 30%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .repo-card>h4{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .btn-repo{
+        padding: 8px;
+    }
+
+}

@@ -1,0 +1,15 @@
+.home-followers{
+    background-color: #1F2937;
+}
+
+@media screen and (min-width: 600px){
+
+    .followers{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+

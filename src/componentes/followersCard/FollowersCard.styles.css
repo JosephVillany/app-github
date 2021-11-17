@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap');
+
+
+.card-followers{
+    
+    width: 60%;
+    padding: 10px 0;
+    margin: 20px auto;
+   /* background-color: #1F2937;*/
+   background-color: #111827;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+    -webkit-box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+    -moz-box-shadow: 8px 7px 4px 3px rgba(56,109,184,0.28);
+}
+
+.card-followers>img{
+    object-fit: cover;
+    width: 40%;
+    border-radius: 50%;
+    border: solid 2px whitesmoke;
+}
+
+.card-followers h4{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-followers{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 6px  ;
+    background-image: linear-gradient(to right,  white 50%, #e74c3c 50% );
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease ;
+    box-shadow: 8px 7px 4px 3px rgba(0,0,0,0.18);
+}
+
+.btn-followers:hover{
+    color: #26292a;
+    background-position: right;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+
+
+    .card-followers{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+}
